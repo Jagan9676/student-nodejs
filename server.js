@@ -1,6 +1,6 @@
 const express=require("express");
 const app=express();
-const port =5000;
+const port =3000;
 const bodyParser = require('body-parser');
 const studentRoutes = require('./routes/studentRoutes');
 const cors=require("cors")
